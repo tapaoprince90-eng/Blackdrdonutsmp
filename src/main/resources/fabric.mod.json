@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "blackdrdonutsmp",
+  "version": "1.0.0",
+  "name": "BlackDrdonutSMP Core",
+  "description": "All DonutSMP Features, Orders, All Block Prices, and BlackDrdonutSMP Leaderboards",
+  "authors": [
+    "BlackDrdonutSMP"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.blackdrdonut.core.BlackDrDonutMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
